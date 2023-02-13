@@ -36,7 +36,7 @@ print(zip_it([1, 3, 5, 7, 9, 11, 13, 15], [2, 4, 6]))
 #     for item in list2:  #loop through 2nd list, to add each item inside 1st list
 #         if flag:        
 #             temp = list1[i]     #placeholder for 1st list item that needs to jump forward to make room for the 2nd list's item
-#             list1[i] = item     #add the value from the 2nd list into the 1st list
+#             list1[i] = item     #place the value from the 2nd list into the 1st list
 
 #             #start moving each of the items in the 1st list forward to make room for the 2nd list's item
 #             list1.append(list1[(len(list1)-1)])
